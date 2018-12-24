@@ -1,0 +1,12 @@
+{
+  "eslint.autoFixOnSave": true,
+  "eslint.options": {
+    "extensions": [ ".js", ".jsx", ".ts", ".tsx" ]
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    { "language": "typescript", "autoFix": true },
+    { "language": "typescriptreact", "autoFix": true }
+  ]
+}

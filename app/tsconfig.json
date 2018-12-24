@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "es2015",
+    "target": "es6",
+    "lib": ["es6", "dom"],
+    "jsx": "react",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "strict": true,
+    "declaration": false,
+    "noUnusedLocals": true
+  },
+  "include": [
+    "src/scripts/index.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
